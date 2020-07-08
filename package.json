@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "e2e": "cypress open"
+    "test:open": "cypress open",
+    "test:run": "cypress run"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^4.9.0"
+    "@cypress/code-coverage": "^3.8.1",
+    "cypress": "^4.9.0",
+    "nyc": "^15.1.0"
   }
 }
